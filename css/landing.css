@@ -211,8 +211,8 @@
 .slogan__logo {
     width: 3.125rem;
 }
-.slogan__button-border {}
-.slogan__button {}
+/* .slogan__button-border {}
+.slogan__button {} */
 
 .slogan__image-border {
   border: 2px solid #5BACC3;
