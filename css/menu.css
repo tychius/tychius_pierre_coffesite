@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Navigation block */
 .nav {
   list-style-type: none;
@@ -9,10 +10,69 @@
 
 .nav__link {
   text-decoration: none;
+=======
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header block */
+.header {
+    background-color: #FFF0ED;
+    padding: 20px;
+}
+
+.header__logo {
+}
+
+.header__nav {
+
+}
+
+.header__nav-item {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header__nav-link {
+    text-decoration: none; color: #251607;
+}
+
+.header__nav-link--blue{
+    text-decoration:#5BACC3
+}
+
+.header__nav-heading {
+    font-weight: 50;
+    font-size: 60px;
+
+}
+
+.header__logo-link{
+    text-decoration: none;
+}
+
+/* Navigation block */
+.nav {
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: 400;
+    color: #F7F7F7;
+    margin: 10px;
+}
+
+.nav__item {
+}
+
+.nav__link {
+    text-decoration: none;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 /* Subnav block */
 .subnav {
+<<<<<<< HEAD
   width: 100%;
   height: 80px;
   background-color: #251607;
@@ -49,10 +109,49 @@
   padding: 1.25rem;
   font-size: 3.75rem;
   font-weight: 300;
+=======
+    width: 100%;
+    height: 80px;
+    background-color: #251607;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.subnav__heading {
+    border-left: 4px solid #5BACC3;
+    font-size: 33px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Hero block */
+.hero {
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/coffee-circle.jpg);
+}
+
+.hero__title {
+    color: #fff;
+    background-color: #251607;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 300;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 /* Products block */
 .products {
+<<<<<<< HEAD
   text-align: center;
   background-color: #FFF0ED;
   padding: 1.25rem;
@@ -94,10 +193,54 @@
   background-color: #F7F7F7;
   text-align: center;
   padding: 20px;
+=======
+    text-align: center;
+    background-color: #FFF0ED;
+    padding: 1.25rem;
+}
+
+.products__heading{
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+.products__item {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.products__item-title {
+    font-size: 33px;
+    font-weight: normal;
+}
+
+.products__item-description {
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    padding: 0 30rem;
+}
+
+.products__item-price {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    color: #5BACC3;
+    text-align: center;
+}
+
+.products-special {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 20px;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 /* Typography */
 .typography {
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
 }
 
@@ -109,11 +252,31 @@
 .typography__subtitle {
   font-size: 33px;
   font-weight: normal;
+=======
+    font-family: Arial, sans-serif;
+}
+
+.typography__title {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.typography__subtitle {
+    font-size: 33px;
+    font-weight: normal;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 /* Price block */
 .price {
+<<<<<<< HEAD
   text-align: center;
   color: #5BACC3;
   padding: 0%;
 }
+=======
+    text-align: center;
+    color: #5BACC3;
+    padding: 0%;
+}
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47

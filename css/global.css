@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -85,4 +86,14 @@ body {
   opacity: 25%;
   bottom: 102px;
   left: -51px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Hero Block */
 .hero {
   background-color: #FFF0ED;
@@ -46,10 +47,110 @@
 .hero__image {
   position: relative;
   left: 65%;
+=======
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header block */
+.header {
+    background-color: #FFF0ED;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header__nav-item {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #251607;
+}
+
+.header__nav-link--blue {
+    text-decoration: #5BACC3
+}
+
+.header__nav-heading {
+    font-weight: 50;
+    font-size: 60px;
+
+}
+
+.header__logo-link {
+    text-decoration: none;
+}
+
+/* Hero Block */
+
+.hero {
+    background-color: #FFF0ED;
+    padding: 1.25rem;
+    position: relative;
+
+}
+
+.hero-card {
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    margin: 5.25rem;
+    padding: 1.25rem;
+}
+
+.hero__heading {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.hero__description {
+    font-size: 18px;
+    width: 60%;
+}
+
+.hero__button--fborder {
+    border: 2px solid #251607;
+    width: 180px;
+    border-width: .125rem;
+}
+
+.hero__button {
+    width: 180px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    background-color: #5BACC3;
+    color: #FFF;
+    position: relative;
+    border-width: .125rem;
+    /* Position/offset increments: 15px */
+
+}
+
+.hero__image {
+    position: relative;
+    left: 65%;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 /* Product-Catalog Block */
 .product-catalog {
+<<<<<<< HEAD
   background-color: #f7f7f7;
   padding-bottom: 1.5625rem;
   display: flex;
@@ -239,11 +340,136 @@
 .article__text {
   font-size: 18px;
   font-weight: normal;
+=======
+    background-color: #f7f7f7;
+    padding-bottom: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.catalog__heading {
+    text-align: center;
+    font-weight: 400;
+}
+
+.catalog {
+    /* text-align: center; */
+    /* margin: 1.25rem; */
+    display: flex;
+    justify-content: center;
+}
+
+.catalog__item {
+    min-height: 27.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: .625rem;
+    box-shadow: 0rem .3125rem .5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    /* width: %; */
+
+}
+
+.catalog__image {
+    height: 17.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+.catalog__details {
+    background-color: #FFF0ED;
+    display: flex;
+    border-radius: .625rem;
+    justify-content: center;
+    margin: -1.25rem;
+
+}
+
+.catalog__item-text {
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+.catalog__price {
+    color: #5BACC3;
+    padding: 1.5625rem;
+    font-weight: 700;
+    font-size: 2.0625rem;
+}
+
+.catalog__button {
+    width: 180px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    background-color: #5BACC3;
+    color: #FFF;
+    border: #FFF;
+    display: block;
+    margin: auto;
+}
+
+.catalog__name {
+    font-size: 2.0625rem;
+    font-weight: 400;
+}
+
+
+/* Discount Block*/
+.discount {
+    background-color: #FFF;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    position: relative;
+}
+
+
+.discount-banner {
+    background-color: #393939;
+    width: 90%;
+    color: white;
+    font-size: 45px;
+    margin: auto;
+    margin: 1.25rem;
+    padding: 1.25rem;
+}
+
+/* Footer Block*/
+
+.footer {
+    background-color: #FFF0ED;
+    position: relative;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.footer-section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.footer__text {
+    font-size: 18px;
+    font-weight: 400;
+    height: 3rem;
+}
+
+
+/*Typography*/
+.article__text {
+    font-size: 18px;
+    font-weight: normal;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 .header__heading,
 .section__heading,
 .catalog__heading {
+<<<<<<< HEAD
   font-size: 60px;
   font-weight: lighter;
 }
@@ -266,10 +492,42 @@
 .footer__description {
   font-size: 1.125rem;
   font-weight: 400;
+=======
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.header__title {
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+.article__text--strong {
+    font-size: 45px;
+}
+
+.footer__heading {
+    font-size: 2.0625rem;
+    font-weight: 300;
+    padding: 20px;
+    margin: 1.25rem;
+
+}
+
+.footer__description {
+    font-size: 1.125rem;
+    font-weight: 400;
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
 }
 
 .logos,
 .footer__logo {
+<<<<<<< HEAD
   width: 50px;
   height: 3rem;
 }/*# sourceMappingURL=landing.css.map */
+=======
+    width: 50px;
+    height: 3rem;
+}
+>>>>>>> 8fcc588f3f6ef9291010d150d4562a2efad3ec47
