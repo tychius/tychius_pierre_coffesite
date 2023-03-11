@@ -1,0 +1,286 @@
+/* Hero Block */
+
+.hero {
+    background-color: #FFF0ED;
+    padding: 1.25rem;
+    position: relative;
+
+}
+
+.hero-card {
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    margin: 5.25rem;
+    padding: 1.25rem;
+}
+
+.hero__heading {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.hero__description {
+    font-size: 18px;
+    width: 60%;
+}
+
+.hero__button-border {
+    width: 180px;
+    border-width: .125rem;
+    background-color: #5BACC3;
+    height: 3.6875rem;
+    margin-top: 1.25rem;
+}
+
+.hero__button {
+    width: 180px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    color: #FFF;
+    position: relative;
+    right: 7px;
+    bottom: 25px;
+    border: 2px solid #251607;
+    background-color: transparent;
+}
+
+.hero__image {
+    position: relative;
+    left: 65%;
+}
+
+/* Product-Catalog Block */
+.product-catalog {
+    background-color: #f7f7f7;
+    padding-bottom: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.catalog__heading {
+    text-align: center;
+    font-weight: 400;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog__item {
+    min-height: 27.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: .625rem;
+    box-shadow: 0rem .3125rem .5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.catalog__image {
+    height: 17.5rem;
+    padding: 3.125rem;
+    margin: 1.25rem;
+}
+
+.catalog__details {
+    background-color: #FFF0ED;
+    display: flex;
+    border-radius: .625rem;
+    justify-content: center;
+    margin: -1.25rem;
+
+}
+
+.catalog__item-text {
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+.catalog__price {
+    color: #5BACC3;
+    padding: 1.5625rem;
+    font-weight: 700;
+    font-size: 2.0625rem;
+    position: relative;
+    top: 1.125rem;
+}
+
+.catalog__button-border {
+    width: 180px;
+    border-width: .125rem;
+    background-color: #5BACC3;
+    height: 3.6875rem;
+    margin-top: 1.25rem;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.catalog__button {
+    width: 180px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    color: #FFF;
+    position: relative;
+    right: 7px;
+    bottom: 25px;
+    border: 2px solid #251607;
+    background-color: transparent;
+}
+
+.catalog__name {
+    font-size: 2.0625rem;
+    font-weight: 400;
+    white-space: nowrap;
+
+}
+
+/* Solgan Block*/
+
+.slogan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem 2.5rem;
+    margin-top: 1.25rem;
+}
+.slogan-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.slogan__title {
+     margin-bottom: 25px;
+     font-size: 60px;
+    font-weight: lighter;
+
+}
+
+.slogan__text {
+    width: 80%;
+    margin-bottom:  1.50rem;
+
+}
+
+.slogan-images {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 2.25rem
+
+}
+.slogan__logo {
+    width: 3.125rem;
+}
+
+ .slogan__button-border {
+    width: 180px;
+    background-color: #5BACC3;
+    height: 3.6875rem;
+}
+.slogan__button {
+    width: 180px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    color: #FFF;
+    position: relative;
+    right: 7px;
+    bottom: 25px;
+    border: 2px solid #251607;
+    background-color: transparent;
+} 
+
+.slogan__image-border {
+    width: 25rem;
+    height: 25rem;
+    margin: 1.25rem;
+    border-width: .3125rem;
+    background-image: url(../assets/images/coldbrewbackground.png);
+    background-size: contain;
+  }
+  
+
+
+.slogan__image {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border: 5px solid #5BACC3;
+    background-color: transparent;
+    
+}
+
+.slogan__image--tiltedcan {
+    position: relative;
+    height: 280px;
+    top: 75px;
+    left: 140px;
+}
+
+
+
+/* Discount Block*/
+.discount {
+    background-color: #FFF;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    position: relative;
+}
+
+
+.discount-banner {
+    background-color: #393939;
+    width: 90%;
+    color: white;
+    font-size: 45px;
+    margin: auto;
+    margin: 1.25rem;
+    padding: 1.25rem;
+}
+
+/*Typography*/
+.article__text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header__heading,
+.section__heading,
+.catalog__heading {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.header__title {
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+.article__text--strong {
+    font-size: 45px;
+}
+
+.footer__heading {
+    font-size: 2.0625rem;
+    font-weight: 300;
+    padding: 20px;
+
+}
+
+.footer__description {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.logos,
+.footer__logo {
+    width: 50px;
+    height: 3rem;
+}
